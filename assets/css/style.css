@@ -99,7 +99,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #e9e9e9;
 }
 
 .overlay-mf {
@@ -1463,7 +1463,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 footer .copyright {
