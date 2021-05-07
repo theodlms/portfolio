@@ -826,7 +826,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Compétences
 --------------------------------------------------------------*/
 .service-box {
   background-color: #fff;
@@ -898,7 +898,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Projet
 --------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
@@ -1431,4 +1431,8 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.bi-bar-chart::before {
+  margin-top: -10px;
 }
