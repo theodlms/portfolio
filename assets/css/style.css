@@ -34,6 +34,12 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.work-box a:hover {
+  color: black;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
 .p-r {
   position: relative;
 }
@@ -63,7 +69,7 @@ a:hover {
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #fff;
 }
 
 .display-5 {
@@ -312,8 +318,11 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
-  color: #fff;
+  background: #fff;
+}
+
+.back-to-top:hover i {
+  color: #9999a1;
 }
 
 .back-to-top.active {
@@ -387,17 +396,10 @@ a:hover {
   outline: 0;
 }
 
-.button:hover {
-  background-color: #0062d3;
-  color: #fff;
-  transition: all 500ms ease;
-}
-
 .button-a {
   text-decoration: none;
   background-color: #9999a1;
   color: #fff;
-  border-color: #cde1f8;
 }
 
 .button-big {
@@ -884,7 +886,6 @@ a:hover {
   background: #fff;
   border: 2px solid #82909c;
 }
-
 
 /*--------------------------------------------------------------
 # Compétences
@@ -1496,4 +1497,24 @@ footer .credits a {
 
 .bi-bar-chart::before {
   margin-top: -10px;
+}
+
+footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #9999a1;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 4px #fff;
 }
